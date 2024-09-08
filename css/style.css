@@ -9682,3 +9682,48 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+    .slider-text .subheading {
+      color: #000000;
+      font-weight: 600;
+      font-size: 14px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #ffbd39; }
+     .slider-text .text {
+      position: relative;
+      z-index: 1; }
+     .slider-text h1 {
+      font-size: 60px;
+      color: #fff;
+      line-height: 1.2;
+      font-weight: 800; }
+       .slider-text h1 span {
+        font-weight: 800;
+        color: #ffbd39; }
+      @media (max-width: 991.98px) {
+         .slider-text h1 {
+          color: #fff;
+          font-size: 50px; } }
+      @media (max-width: 767.98px) {
+         .slider-text h1 {
+          font-size: 40px; } }
+     .slider-text h2 {
+      font-size: 30px;
+      font-weight: 400; }
+      @media (max-width: 991.98px) {
+         .slider-text h2 {
+          color: #fff; } }
+     .slider-text p {
+      color: rgba(0, 0, 0, 0.8);
+      font-weight: 400; }
+      @media (max-width: 991.98px) {
+         .slider-text p {
+          color: rgba(255, 255, 255, 0.7);
+          font-size: 23px; } }
+     .slider-text .btn-custom {
+      border: 1px solid #ffbd39;
+      padding: 5px 20px;
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 3px; }
